@@ -1,0 +1,42 @@
+Домашнее задание 
+
+# # Множество № 1:
+# dates_of_birth = {3,10,11,13,31,21,1,10,3,5,6,6}
+ 
+# # Список № 2
+# south_american_countries = ['Argentina', 'Bolivia', 'Brazil', 'Chile', 'Colombia', \
+#   'Ecuador', 'Guyana', 'Paraguay', 'Peru', 'Suriname', 'Suriname', 'Uruguay', 'Venezuela']
+ 
+# # Множество № 2:
+# farm_1 = {"dog", "cat", "mouse", "sheep"}
+ 
+# # Множество № 3:
+# farm_2 = {"cow", "horse", "donkey", "cat", "dog"}
+ 
+ 
+# # Словарь №1:
+# menu = {'lagman': 120, 'plov': '120', 'borsh': 100}
+
+
+используйте множество 2 вместо множества 4
+множество 3 вместо множества 5
+_______________________________________________________________________________________________________
+
+
+Пример выполнения: 
+
+food = {
+
+    "drinks": {
+        'name': 'Pepsi'
+    },
+
+    "snacks": ['Potato', 'Cheeps'],
+
+}
+print(food)
+print(len(food))
+print(food.update({'drinks': 'drinks'}))
+
+print()
+print(food)

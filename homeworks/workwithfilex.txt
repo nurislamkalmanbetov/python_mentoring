@@ -1,0 +1,83 @@
+Домашнее задание в Проекте!
+
+
+
+
+__________________________________________________________________________________________
+Примеры работ: 
+
+my_file = open('testA.txt', 'a') # a - add добавить
+my_file.write(' Hello! My name is Nurislam \n '
+               ' How are you doing today? \n'
+               'What is your name? ')
+my_file.close()
+
+my_file = open('testA.txt', 'r') # r - читать 
+data_file = my_file.read()
+print(data_file)
+my_file.close()
+
+
+with open('test.txt', 'w') as file:
+    for i in range(5):
+        s = input('Введите слово: ')
+        file.write(s+'\n')
+
+
+with open('test.txt', 'r') as f:
+    data_file = f.readlines()
+    print(data_file)
+    if 'test\n' in data_file:
+        print('Yes')
+
+
+# with open('testA.txt', 'w') as file:
+#     for i in range(5):
+#         s = input('Введите словао: ')
+#         file.write(s+'\n')
+#
+# with open('testA.txt', 'r') as f:
+#     for i in f.readlines():
+#         print(i)
+
+# with open('testA.txt', 'w') as file:
+#     for i in range(5):
+#         s = input('Введите словао: ')
+#         file.write(s+'\n')
+# 
+# with open('testA.txt', 'r') as f:
+#     data_file = f.readlines()
+#     print(data_file)
+#     if 'test\n' in data_file:
+#         print('Yes')
+
+
+print("Войдите или зарегистрируйтесь!") 
+log = input("Ваш логин: ")
+password = input("Ваш пароль: ")
+users = ''
+with open("database.txt", 'r') as f1:
+    users = f1.read()
+    print('file: ', users)
+database = dict()
+
+for user in users.split('\n'):
+    print(user)
+    database.update(eval(user))
+print('after: ', database)    
+
+if log in database:
+    if database[log] == password:
+        print("Вы вошли!")
+    else:
+        print("Пароль не верен!")
+else:
+    password_2 = input("Введите пароль еще раз: ")
+    if password_2 == password:
+
+        print("Поздравляю вы зарегестрировались")
+        with open("database.txt", "a") as f:
+            f.write('\n')  
+            f.write(str({log: password_2}))   
+    else:
+        print("Пароли должны совпадать!!!")

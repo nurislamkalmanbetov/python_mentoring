@@ -1,0 +1,46 @@
+Python Learn Course:
+
+Learn Linux:            https://www.canva.com/design/DAEJOpH_CxM/1UDX2PuUoAQgeBj3MXPFtw/view
+
+Типы Чисел:             https://www.canva.com/design/DAEJVu8SdeE/RM3BbnB9ugFMdzdHwacTDw/view#2
+
+Типы данных:            Файл тип данныхnew.pdf 
+
+Строки:                 https://www.canva.com/design/DAEJtybm4rE/puy_vAomu4xfpkIuoxiLPw/view#9 
+                        задачи - Str.txt
+
+Условия:                https://www.canva.com/design/DAEKL3xKe_w/ZVxnexfFiXcE0C8UFaaRUg/view#10 
+                        Файл - Условия.pdf 
+
+Tuple & Lists:          https://www.canva.com/design/DAEKCfdDNlM/PfYLaUxrw1TZKLZuma2Kbg/view#9 
+
+While:                  https://www.canva.com/design/DAEKLwi67Q0/7GrpPl-JkU-ChnUueFrALQ/view#2
+                        https://drive.google.com/drive/folders/1LkFWkrLRbsM6NKfctoQue1Cb6RPhbB9e 
+
+Sets & Dictionary:      https://www.canva.com/design/DAEKITn4cps/ePJaIqlSP1xkXx-Ursv-xw/view#5
+                        https://drive.google.com/drive/folders/1LkFWkrLRbsM6NKfctoQue1Cb6RPhbB9e 
+
+Work with files:        https://www.canva.com/design/DAELncnAUd0/Y1HA4swte_Z0MsyQFumTLQ/view
+                        https://drive.google.com/drive/folders/1kI9gDfeKXQzIbMiLy4YiS5x3aUN5rgwt
+                        workwithfiles.txt 
+
+Встроенные функции:     https://www.canva.com/design/DAELmM4ZppM/_25Qsdu2V8MSWHpajKUBRA/view
+                        https://drive.google.com/drive/folders/1iT76jDzie65hIm9IkSAaEMEmIU4JH6EH
+                        Встроенныефункции.txt 
+
+Modules:                https://www.canva.com/design/DAEL3jdjjeE/D0J1bLigW9wnAx3BeH8x1Q/view#6
+                        https://drive.google.com/drive/folders/1kI9gDfeKXQzIbMiLy4YiS5x3aUN5rgwt
+
+Functions:
+
+Classes:
+
+DataBase:
+
+HTML CSS
+  
+
+
+
+
+                        

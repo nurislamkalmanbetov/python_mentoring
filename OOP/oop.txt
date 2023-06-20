@@ -1,0 +1,7 @@
+OOP:
+
+OOP:                    links/oop.Python
+incapsulation:          links/incapsulations.py
+polimorfizm:            links/polimorfizm.py
+abstract:               links/abstract.py 
+hw_OOP:                 homeworks/hw_oop.txt   

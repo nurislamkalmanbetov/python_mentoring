@@ -1,0 +1,41 @@
+from SashaDZ import ColorData
+
+# print(dd.get_list_keys())
+
+
+class ChildColorData(ColorData):
+    def init(self, data: dict, art1: int):
+        self.attr1 = art1 # private attribute
+        super().__init(data) # --> ColorData.init(data)
+
+    #private method
+    def __vkndfj(self):
+        pass
+    
+    #protect method
+    def _jvnfdknvkjfd(self):
+        pass
+        
+dd = ChildColorData(
+    {
+    "black": {
+        "category": "hue",
+        "type": "primary",
+        "code": {
+            "rgba": [255,255,255,1],
+            "hex": "#000"
+        }
+    },
+    "white": {
+        "category": "value",
+        "code": {
+        "rgba": [0,0,0,1],
+        "hex": "#FFF"
+        }
+    }
+},
+12345
+)
+
+print(dd.get_list_keys())
+print(dd.get_set_values())

@@ -1,0 +1,23 @@
+DATABASES:
+
+Postgresql Desktop Download with SQL projects:                    
+                        https://www.canva.com/design/DAEM7aTvf6w/GYrj-xuF2x6z0pisVH7sdQ/view#6
+                        https://drive.google.com/drive/folders/1MalwQdAzRXrfk6QE_hmmZT_zmVPXloSL
+                        https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart-ru
+                        https://www.pgadmin.org/download/pgadmin-4-apt/
+                        https://www.youtube.com/watch?v=yrKX8yQwu7g
+
+Postgresql 2 Databases part 2:
+                        https://drive.google.com/file/d/1CGgv1oNxv82kyqNNNj4WrgR6n3iqic9c/view
+                        https://drive.google.com/drive/folders/1_bRySOHBTkHkh219f7oBPo0q3NGq_WZ6
+
+Postgresql 3 Databases part 3:
+                        https://drive.google.com/file/d/1uF6kAuu6ehADLYnst_QdM2Oy4nViC-l-/view
+                        https://drive.google.com/drive/folders/1OBreVpOZ_ATLsqTTmU0TZeR1cF0QUcS_
+
+
+Postgresql 4 Databases part 4:
+                        https://drive.google.com/file/d/1t8cB4UGoKmdtmLUSW_7HKTXeKE4Z_27H/view
+                        https://drive.google.com/drive/folders/1MgWdN6jJxXw7kBumsgXfggXM-QPhgidJ
+                        Подключение через Питон к Postgresql - задачи в hw/psql4.txt
+                            

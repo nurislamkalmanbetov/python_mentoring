@@ -1,0 +1,66 @@
+к Заданию
+
+# # LIST №1:
+# names = ['Jack', 'Jimmy', 'Jackson', 'Jhon', 'Jackson', 'Jhon',  'Jimmy', 'Jackson', 'Jhon','Jack', 'Jimmy', 'Jack', 'Jackson', 'Jhon', 'Jackson', 'Jhon','Jack', 'Jimmy', 'Jack', 'Jackson', 'Jhon',]
+
+## LIST №2
+pythonList = ["int", "str", "bool", "if", "else", "elif", "loop", "tuple", "list", "None", True, False]
+
+## LIST №3
+numbers = [123, 321, 2, 543, 64, 463, 234, 867, 6234, 63246, 3, 43]
+_______________________________________________________________________________________________________
+Домашнее задание 
+1. week_temp = (26, 29, 34, 32, 28, 26, 23)
+Выведите среднию температуру за неделю
+
+2. Есть кортеж: a  = (4,2,5,8,6,9)
+измените 8 на 11
+
+3. LIST №2 представьте в обратно порядке
+
+4. LIST №1 удалите дубликаты из списка 
+
+5. LIST №3 переставьте максимальное  и минимальное значение местами
+
+_______________________________________________________________________________________________________
+# a = 'we are bob and tom'
+# b = a.split()
+# print(len(b))
+# print(b)
+
+# print(b[2])
+# print(b[:3])
+# print(b[3:])
+# print(b[2:])
+# print(b[-1])
+# print(b[-2])
+# print(b[-7])
+
+
+# a = ['a', 'b', 'c']
+
+# b = ('a', 'b', 'c', 4, 6, 1)
+
+# # a[1] = 'k'
+
+
+# print()
+# print(b)
+
+
+list_numbers = [1,6,2,6,9,45,23]
+print(list_numbers.append([10, 20, 30]))
+print(list_numbers.extend('test'))
+# print(list_numbers.remove(6))
+# print(list_numbers.remove(6))
+# m = list_numbers.count(6)
+# print(list_numbers.pop(5))
+# print(list_numbers.pop())
+# print(list_numbers.pop())
+print(list_numbers.index())
+print(list_numbers[7])
+print(list_numbers)
+
+stroka = 'test user name'
+print(stroka.split(' '))
+print(stroka)

@@ -1,0 +1,37 @@
+def get_percent(amount, from_num):
+    result = amount / from_num
+    percent = result * 100
+    return percent
+
+print(get_percent(300, 600))
+
+d = (lambda amount, from_num: amount / from_num *100)
+print(d(300, 600))
+
+
+def add_functionality(func):
+    def inner():
+        print('I got decorated')
+        print(func().upper())
+    return inner()
+
+@add_functionality
+def ordinary():
+    return "i am ordinary"
+
+
+def ret_tax(func):
+    def wrapper(sal, day):
+        if day>20:
+            return sal/20*day
+        return func(sal, day)
+    return wrapper
+
+@ret_tax
+def salary(sal, days):
+    tax = sal/100*12
+    without_tax = sal - tax
+    res = without_tax/20 * days
+    return res
+
+print(salary(1000, 19))i

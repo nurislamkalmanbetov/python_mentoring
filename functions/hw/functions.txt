@@ -1,0 +1,18 @@
+def lenght(my_list):
+    result = 0
+    for _ in my_list:
+        result += 1
+    print('Список состоит из {0} элеменетов'.format(result))
+
+# temp = list()
+# for i in my_list:
+#     temp = 0
+
+# print(temp)
+m1 = [1,'Mario',3.5, True]
+lenght(m1)
+m3= [4,6,78,5,3,7,7]
+lenght(m3)
+list34 = [[5,3,6,6], {5,3,6}, 'dfdf', '442', 8,6]
+lenght(list34[0])
+

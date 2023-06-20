@@ -1,0 +1,16 @@
+Задания: 
+
+1) Создать пару баз, поля так же, через ПГ-Админ4. Можно ту же базу усовершенствовать. 
+  1.1 Добавить записи так же 
+  1.2 По максимуму изучить Пг-Админ4
+__________________________________________
+Пример: 
+CREATE TABLE IF NOT EXISTS public.news
+(
+    id bigint NOT NULL GENERATED ALWAYS AS IDENTITY ( INCREMENT 1 START 1 MINVALUE 1 MAXVALUE 9223372036854775807 CACHE 1 ),
+    title character varying(256) COLLATE pg_catalog."default" NOT NULL,
+    news_text text COLLATE pg_catalog."default" NOT NULL,
+    created date NOT NULL DEFAULT now(),
+  view_count INTEGER,
+    CONSTRAINT news_pkey PRIMARY KEY (id)
+)

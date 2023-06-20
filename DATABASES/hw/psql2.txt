@@ -1,0 +1,31 @@
+-- insert into posts (title, post_text)
+-- values
+-- ('post 2', 'Post 2 create'),
+-- ('post 3', 'post 3 create');
+
+-- UPDATE posts
+-- SET post_text = 'New post'
+-- WHERE ID = 1;
+
+-- select * From Posts;
+
+
+-- CREATE TABLE users(
+--   id SERIAL PRIMARY KEY,
+--   name VARCHAR(20),
+--   password VARCHAR(50),
+--   hobby VARCHAR DEFAULT 'Nothing'
+-- );
+
+
+-- COMMENT ON COLUMN users.hobby is 'Значение по умолчанию Nothing';
+
+-- ALTER TABLE posts ADD COLUMN testcol varchar(50);
+
+-- ALTER TABLE posts ADD COLUMN firstname varchar(50) default 'def';
+
+-- ALTER TABLE posts DROP COLUMN testcol;
+
+ALTER TABLE posts RENAME COLUMN firstname TO newcolname;
+
+select * From Posts;

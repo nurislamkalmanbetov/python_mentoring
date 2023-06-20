@@ -1,0 +1,80 @@
+Задания есть в проекте: 
+
+#1 Скопируйте текст к себе на компьютер:
+
+Python is a widely used high-level programming language for general-purpose
+programming, created by Guido van Rossum and first released in 1991. An interpreted
+language, Python has a design philosophy that emphasizes code readability (notably
+using whitespace indentation to delimit code blocks rather than curly brackets or
+keywords), and a syntax that allows programmers to express concepts in fewer lines of
+code than might be used in languages such as C++ or Java.
+
+
+#2 Monthes:
+January       18000
+February      32641
+March         28300
+April         11200
+May           21100
+June          19000
+July          8000
+August        72000
+September     12300
+October       17000
+November      25000
+December      30000
+
+__________________________________________________________________________________________________
+
+
+values = ("Razakov 32", 10, 1005, ["tables", "chairs"], 23.00)
+
+Code #1:
+
+at = 10
+in = 15
+wo = 20
+
+for e in range(-at, at):
+print(wo / e)
+if at > '5':
+print("at > 5)
+
+
+Code #2:
+lst = []
+for i in renge(10):
+lst.apend(i)
+
+a = list(revesed(lst))
+sls_obj = slice('0','8')
+print(а[sls_obj])
+
+
+Code #3:
+a = (0)
+b = (1,)
+numbers = []
+while b > a:
+numbers += b
+b += 1
+
+
+values = ("Razakov 32", 10, 1005, ("tables", "chairs"), 23.00, False)
+
+print(set(values))
+
+res = list()
+
+for value in values:
+    if type(value) in (int, str, float, tuple, bool):
+        res.append(True)
+    else:
+        res.append(False)
+
+print(res)
+
+if all(res):
+    print('Yes')
+else:
+    print('No')
